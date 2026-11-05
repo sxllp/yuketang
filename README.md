@@ -42,7 +42,7 @@
 ## 安装
 
 ```bash
-git clone https://github.com/Gary-666/yuketang.git
+git clone https://github.com/sxllp/yuketang.git
 cd yuketang
 pip install -r requirements.txt
 cp .env.example .env      # Windows: copy .env.example .env
