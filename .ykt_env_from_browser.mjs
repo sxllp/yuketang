@@ -87,7 +87,8 @@ for (const [k, v] of Object.entries(found)) {
 const missing = Object.entries(found).filter(([, v]) => !v).map(([k]) => k);
 if (missing.length) {
   console.log('\n还缺:', missing.join(', '));
-  console.log('请在 Chrome 窗口里: 扫码登录 -> 进「我听的课」-> 点进目标课程 -> 再点开一节课，让地址栏出现 /pro/livecast/...?sign=...');  ws.close();
+  console.log('请在 Chrome 窗口里: 扫码登录 -> 进「我听的课」-> 点进目标课程 -> 再点开一节课，让地址栏出现 /pro/livecast/...?sign=...');
+  ws.close();
   process.exit(2);
 }
 
